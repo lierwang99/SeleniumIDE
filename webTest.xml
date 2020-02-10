@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="zrong" preserve-order="true">
+		
+			<!-- <class name = "practice.PracticeFactory"> </class> -->
+			<packages>
+				<package name="practice">
+					<classes>
+						<class>
+							<exclude name="practice.PracticeFactory"/>
+								
+							
+						</class>
+					</classes>
+
+				</package>
+				<!-- <package name="factoryDemo" /> -->
+			</packages>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

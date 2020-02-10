@@ -1,0 +1,49 @@
+#对象键值的三种结构表示
+sex: 
+name: zengrong
+name: {age: 23,sex: girl,nativePlace: hunan}
+name:
+ n: zengrong
+ age: 24
+ sex: girl
+#数组三种结构的输出方式
+#key: [A,B,C,D]
+#注意空格
+key:
+ - 1
+ - 2
+ - 3
+
+#key: [{1: 9,2.3: 8,4: 7},{9: 1,8: 2.3,7: 4}]
+ss: [1,2,5]
+#纯量
+boolean:
+ - 2.80
+ - false
+float:
+ - 3.14
+ - 6.8523015e+5
+null:
+ nodeName: 'node'
+ parent: 'adb'
+string:
+ - 哈哈
+ - "Hello world"
+ - newline
+ - newlint2
+date:
+ - 2019-12-04
+datetime:
+ - 2019-12-04T08:50:00-05:00
+defaults:
+ adapter: postgres
+ host: localhost
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+name: bob
+arr:
+    - A
+    - B
+     - C
+book:
+   name: "十万个为什么"
+   price: 16.6
+
+dog: {A: a,B: b,C: c}
+
+
+   
